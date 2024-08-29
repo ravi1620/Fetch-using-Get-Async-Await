@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.button1{
+ padding: 15px;
+  background-color: rgb(184, 38, 86);
+  color:rgb(10, 152, 207);
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+}
+.button2:hover{
+background-color: red;
+color: black;
+font-style: oblique;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-radius: 10px;
+}
+button{
+  margin: 10px;
+  
+}
+.h1{
+  background-color: rgb(17, 15, 15);
+  color: olive;
+  display: inline-block;
+}
+
+.img{
+  width: 250px;
+  height: 250px;
+}
+
+.div{
+  width: 500px;
+  height: 500px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.div:hover{
+  box-shadow: 10px 10px 10px grey;
+}
+
+
+
+
