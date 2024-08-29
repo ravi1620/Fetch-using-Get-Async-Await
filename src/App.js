@@ -87,7 +87,7 @@ return (
 {products.map((ele,i)=>{
 return (
 <div className='div'>
-<img  src={ele.images} alt={` ${ele.images + 1}`} className='img' id='productsImg'/>
+<img  src={ele.images} alt={` ${ele.images + 1}`} className='img' title={ele.descriptioin}/>
 <p>{ele.description}</p>
 <p>{ele.id}</p>
 <p>Price:${ele.price}</p>
